@@ -1,0 +1,1070 @@
+
+
+.sc-top-video{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+
+
+}
+.sc-top-video .video-area{
+    position: relative;
+    height: 100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8) inset,0px 0px 5px rgba(200,200,200,0.5); 
+    overflow: hidden;
+}
+
+.sc-top-video .bg{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(10, 10, 10, 0) 27.44%, #0A0A0A 93.94%);
+}
+
+.sc-top-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.sc-top-video .text-area{
+    max-width: 1188px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+    color: #fff;
+    font-family: "Outfit-m";
+
+}
+.sc-top-video .text-area h2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 96px;
+    line-height: 96px;
+}
+.sc-top-video .text-area p{
+    font-size: 24px;
+}
+
+
+
+/* ----------------------------- */
+
+.sc-top-card .top-card-swiper{
+    display: none;
+}
+
+.sc-top-card{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(97px);
+    z-index: 2;
+}
+
+
+.sc-top-card .card-list{
+    max-width: 1188px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+
+    
+}
+.sc-top-card .card-item{
+    position: relative;
+    box-shadow: inset;
+    opacity: 0;
+    flex: 1;
+
+    
+}
+.sc-top-card .img-box{
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.sc-top-card .img-box a{
+    display: block;
+    height: 100%;
+    transition: all 0.2s linear;
+
+
+}
+.sc-top-card .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.sc-top-card .img-box:hover a{
+    transform: scale(1.1);
+}
+
+.sc-top-card .text-box{
+    position: absolute;
+    bottom: 0;
+    padding: 20px 15px;
+    color: #fff;
+    font-family: "Outfit-m";
+    background: linear-gradient(360deg, rgba(10, 10, 10, 0.8) 4.55%, rgba(10, 10, 10, 0) 100%);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sc-top-card .text-box p{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 16px;
+    line-height: 25px;
+}
+.sc-top-card .text-box .more{
+    display: flex;
+    margin-top: 8px;
+    column-gap: 8px;
+}
+.sc-top-card .text-box .more svg{
+    width: 24px;
+    height: 24px;
+}
+
+
+/* ------------------------ */
+
+
+.sc-downloads{
+    position: relative;
+    background-color: #0a0a0a;
+    width: 100%;
+
+}
+
+.sc-downloads .sticky-area{
+    height: 500vh;
+}
+
+
+.sc-downloads .bg-area{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+.sc-downloads .bg-color{
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(135deg,#ff0050,#006eff);
+    width: 50vw;
+    height: 50vw;
+    top: 0;
+    right: 0;
+    -webkit-filter: blur(200px);
+    
+
+
+}
+
+.sc-downloads .downlods-inner{
+
+}
+.sc-downloads .bg{
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+.sc-downloads .slide-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 256px;
+    padding-top: 256px;
+}
+.sc-downloads .slide-text .text-box{
+    padding-top: 128px;
+    color: rgba(242, 242, 242, 50%);
+    font-size: 96px;
+    line-height: 100px;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* display: -webkit-box; */
+    /* -webkit-line-clamp: 4; */
+    /* -webkit-box-orient: vertical; */
+    font-family: "Outfit-m";
+    z-index: 20;
+
+
+}
+.sc-downloads .slide-text .text-box span{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.sc-downloads .slide-text .more-box{
+    margin-top: 80px;
+    width: 156.03px;
+
+}
+
+/* .sc-downloads .more-box:hover .arrow{
+    background: linear-gradient(135deg,#734eff,#3c288c 100.02%);
+    transition: 0.3s;
+} */
+
+.sc-downloads .more-box:hover .arrow svg{
+    color: #fff;
+
+}
+
+
+.sc-downloads .card-area{
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 0 50px;
+}
+
+
+
+
+.sc-downloads .card-area .item{
+    max-width: 1140px;
+    position: relative;
+    display: block;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.sc-downloads .card-area .img-box img{
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+
+.sc-downloads .tom-inner{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-image: url(/assets/img/tom-friend.png); */
+    background-size: cover;
+}
+
+.sc-downloads .tom-area{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+
+.sc-downloads .tom-area .logo{
+    position: absolute;
+    top: 64px;
+    left: 64px;
+    display: block;
+    width: 135px;
+    height: 96px;
+    z-index: 11;
+}
+
+.sc-downloads .tom-area .img-box{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.sc-downloads .tom-area img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.sc-downloads .tom-area .text-box{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    color: #fff;
+    padding: 64px;
+    width: 100%;
+
+}
+
+.sc-downloads .tom-area .text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-family: "Outfit-m";
+}
+
+
+.sc-downloads .slide-text br{
+    display: none;
+}
+
+.sc-downloads .tom-area .text-box strong{
+    font-size: 48px;
+    
+}
+.sc-downloads .tom-area .text-box p{
+    margin-top: 30px;
+}
+.sc-downloads .tom-area .text-box .more-box{
+    position: absolute;
+    right: 64px;
+    height: 58px;
+    background: #fff;
+    color: #0a0a0a;
+    overflow: hidden;
+
+}
+
+.sc-downloads .tom-area .text-box .arrow{
+    position: relative;
+    background: #000;
+    rotate: -45deg;
+    transition: 0.5s;
+}
+
+.sc-downloads .tom-area .text-box .arrow svg{
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+
+.sc-downloads .card-area .arrow::before{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg,#734eff,#3c288c 100.02%);
+    content: '';
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.3s;
+}
+.sc-downloads .tom-inner:hover .arrow{
+    background: #734eff;
+}
+.sc-downloads .tom-inner:hover .arrow::before{
+    opacity: 1;
+}
+
+
+.sc-downloads .tom-inner:hover .tom-bg{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+/* --------------------- */
+
+
+
+.sc-hyperdot{
+    position: relative;
+    background-color: #0a0a0a;
+
+}
+
+.sc-hyperdot .hyper-inner{
+    position: relative;
+    height: 400vh;
+    /* background: #f00; */
+}
+.sc-hyperdot .hyper-inner .inner{}
+
+
+.sc-hyperdot .sticky-area{
+    position: sticky;
+    top: 0;
+    /* height: 100vh; */
+    /* background: #0f0; */
+    /* padding-bottom: 600px; */
+    overflow: hidden;
+
+}
+
+
+.sc-hyperdot .bg-area{
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.sc-hyperdot .bg-blue{
+    width: 480px;
+    height: 480px;
+    background-image: linear-gradient(135deg,#734eff,#08f1ff);
+    background-position: center center;
+    border-radius: 9999px;
+    -webkit-filter: blur(40px);
+}
+
+
+.sc-hyperdot .text-box{
+    position: relative;
+    z-index: 2;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    max-width: 896px;
+    color: #fff;
+    z-index: 10;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 160px;
+    font-family: "Outfit-m";
+    /* height: 100vh; */
+    padding-top: 40vh;
+    /* padding-bottom: 20vh; */
+
+}
+.sc-hyperdot .text-box strong{
+    font-size: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-height: 60px;
+}
+
+
+.sc-hyperdot .text-box .logo{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 56px;
+}
+.sc-hyperdot .text-box p{
+}
+.sc-hyperdot .text-box svg{
+    width: 213px;
+    height: 36px;
+}
+
+.sc-hyperdot .card-box{
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 96px;
+}
+.sc-hyperdot .card-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    transform: scale(0.8);
+    opacity: 0;
+}
+.sc-hyperdot .card-item{
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 20;
+    flex: 1;
+}
+
+
+.sc-hyperdot .card-item img{
+    border-radius: 10px;
+    
+    
+}
+
+.sc-hyperdot .card-item .black{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(360deg, #0A0A0A 4.55%, rgba(10, 10, 10, 0) 85.8%);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+} 
+
+.sc-hyperdot .card-item p{
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-family: "Outfit-m";
+ 
+   
+}
+
+.sc-hyperdot .more-box{
+    background: #fff;
+    color: #0a0a0a;
+    width: 139.72px;
+    margin: 32px 0;
+    z-index: 10;
+
+
+
+}
+.sc-hyperdot .more-box .arrow{}
+
+.sc-hyperdot .more-box .arrow{
+    background-color: #111927;
+
+}
+
+.sc-hyperdot .more-box .arrow svg{
+    color: #fff;
+
+}
+
+.sc-hyperdot .more-box:hover .arrow{
+    background: linear-gradient(135deg,#734eff,#3c288c 100.02%);
+    transition: 0.3s;
+}
+
+
+/* -------------- */
+
+
+.sc-team{
+    position: relative;
+    background: #fff;
+}
+
+.sc-team .team-inner{
+    position: relative;
+    width: 100%;
+
+
+}
+
+.sc-team .text-area{
+    padding: 300px 0;
+    position: sticky;
+    top: 0;
+    margin: 0 auto;
+    font-size: 96px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-family: "Outfit-m";
+    line-height: 96px;
+    z-index: 2;
+    width: 100%;
+
+}
+
+.sc-team .slide-area{
+    max-width: 1188px;
+    margin: 0 auto;
+    padding-bottom: 100vh;
+
+    z-index: 2;
+}
+
+.sc-team .slide-card{
+    position: relative;
+    max-width: 1188px;
+}
+
+
+.sc-team .slide-card a{
+    position: relative;
+    display: block;
+    max-width: 364px;
+    z-index: 20;
+
+
+}
+
+.sc-team .slide-card .bg{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%);
+
+}
+
+
+.sc-team .slide-card .slide-text{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-family: "Outfit-m";
+
+}
+
+.sc-team .slide-card .slide-text p{
+    font-size: 24px;
+}
+
+.sc-team .slide-card .slide-text span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.sc-team .slide-card .slide-text svg{
+    width: 24px;
+    height: 24px;
+}
+
+.sc-team .slide-card a{
+    display: block;
+    width: auto;
+    height: 460px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.sc-team .slide-card img{
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+    transition: 0.3s;
+
+
+
+}
+
+.sc-team .slide-card.f{
+    z-index: 1;
+}
+.sc-team .slide-card.f img{
+    max-width: 364px;
+    margin-left: 160px;
+    border-radius: 10px;
+}
+.sc-team .slide-card.s{
+    max-width: 364px;
+    margin-left: auto;
+    z-index: 2;
+
+}
+.sc-team .slide-card.s a{
+    display: block;
+
+}
+
+
+.sc-team .slide-card.s img{
+    height: 460px;
+
+}
+
+
+.sc-team .slide-card.t{
+    max-width: 364px;
+    z-index: 2;
+
+
+}
+.sc-team .slide-card.t img{
+    height: 460px;
+
+}
+
+.sc-team .slide-card.ff{
+    display: flex;
+    justify-content: end;
+    z-index: 1;
+
+}
+.sc-team .slide-card.ff img{
+    height: 256px;
+    object-fit: cover;
+}
+
+
+.sc-team .slide-card.fff{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    z-index: 1;
+
+
+}
+.sc-team .slide-card.fff img{
+    height: 256px;
+}
+
+
+.sc-team .slide-card:hover a img{
+    transform: scale(1.1);
+}
+
+
+
+/* ---------------- */
+
+.sc-skills{
+    background-image: linear-gradient(135deg,#525252,#0a0a0a);
+    height: 100%;
+    word-wrap: 100%;
+    padding-top: 208px;
+    padding-bottom: 96px;
+}
+
+.sc-skills .skills-inner{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 24px 0;
+
+}
+.sc-skills .headline{
+    max-width: 1140px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+    
+
+}
+.sc-skills .headline h2{
+    font-size: 60px;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-family: "Outfit-m";
+    flex: 1;
+}
+.sc-skills .headline .more-box{
+    color: #000;
+    background: #fff;
+    height: 58px;
+    width: 320.52px;
+}
+
+.sc-skills .headline .more-box a{
+    display: block;
+
+}
+.sc-skills .headline .arrow{
+    background-color: #111927;
+
+}
+.sc-skills .headline .arrow svg{
+    color: #fff;
+    width: 24px;
+    height: 24px;
+}
+.sc-skills .card-area{
+    height: 100%;
+    padding-top: 96px;
+    padding-bottom: 208px;
+}
+.sc-skills .card-list{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    max-width: 1140px;
+
+}
+.sc-skills .card-item{
+    flex: 1;
+}
+.sc-skills .card-item a{
+    display: block;
+    position: relative;
+}
+.sc-skills .img-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+
+
+}
+.sc-skills .img-box img{
+    /* height: 460px; */
+    width: 100%;
+    transition: 0.3s;
+}
+
+.sc-skills .card-item a:hover img{
+    scale: 1.1;
+}
+
+.sc-skills .img-box .bg{
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%);
+}
+
+
+.sc-skills .text-box{
+    position: absolute;
+    bottom: 0;
+    padding: 28px;
+    color: #fff;
+    font-family: "Outfit-m";
+
+}
+
+.sc-skills .text-box strong{
+    font-size: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+}
+.sc-skills .text-box .read{
+    display: flex;
+}
+.sc-skills .text-box p{
+    margin-top: 28px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sc-skills .text-box p .wrap{position: relative;display: flex;overflow: hidden;
+    
+}
+.sc-skills .text-box p .wrap .text{    transition: 0.5s;}
+.sc-skills .text-box p .wrap .text:last-child{
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+
+.sc-skills .card-item a:hover .text-box .wrap .text{
+    transform: translateY(-100%);
+}
+
+
+.sc-skills .text-box svg{
+    width: 24px;
+    height: 24px;
+}
+
+.sc-skills .bottom-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    gap: 40px;
+    border-bottom: 1px solid #525252;
+    padding-bottom: 28px;
+
+
+}
+.sc-skills .bottom-area strong{
+    font-size: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-family: "Outfit-m";
+
+}
+.sc-skills .bottom-area a{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.sc-skills .bottom-area .arrow{
+    transition: 0.3s;
+
+}
+.sc-skills .bottom-area .arrow svg{
+    width: 24px;
+    height: 24px;
+    transition: 0.3s;
+
+
+}
+
+
+.sc-skills .more-box:hover .arrow{
+    background: linear-gradient(135deg,#734eff,#3c288c 100.02%);
+}
+.sc-skills .more-box:hover svg{
+    color: #fff;
+}
+/* 
+
+
+@media (max-width:1024px) {
+
+    .sc-top-video .video-area{
+        width: 100%;
+    }
+
+    .sc-top-card {
+        padding: 0 24px;
+        width: 1
+        00%;
+    }
+
+    .sc-top-card .top-card-inner{
+        display: none;
+    }
+
+    .sc-top-card .top-card-swiper{
+       display: block;
+    }
+
+    .top-card-swiper .swiper-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-card-swiper .swiper-slide{
+    }
+    .top-card-swiper .img-box{
+        width: 100%;
+        
+    }
+    .top-card-swiper .img-box .img{
+        display: block;
+        width: 100%;
+    }
+    .top-card-swiper .img-box img{
+    }
+    .top-card-swiper .text-box{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+    .top-card-swiper .text-box p{
+        font-size: 20px;    
+    }
+    .top-card-swiper .text-box .more{}
+
+    .sc-downloads .slide-text {
+        padding: 20px 24px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 256px;
+        padding-top: 256px;
+    }
+
+    .sc-downloads .slide-text span{
+        display: block;
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .sc-downloads .slide-text br{
+        display: block;
+    }
+
+    .sc-downloads .tom-inner .text-box{}
+    .sc-downloads .tom-inner .logo{
+        width: 98px;
+        height: 64px;
+
+    }
+    .sc-downloads .tom-inner .text-box strong{
+        font-size: 36px;
+    }
+    .sc-downloads .tom-inner .text-box p{
+        font-size: 16px;
+    }
+    .sc-hyperdot .text-box strong{
+        font-size: 30px;
+    }
+
+    .sc-team h2{
+        font-size: 48px;
+        line-height: 50px;
+        padding: 0 24px;
+    }
+
+
+    .sc-skills .skills-inner{
+        padding: 0 24px;
+    }
+    .sc-skills .headline{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        
+    }
+
+    .sc-skills .headline h2{
+        font-size: 48px;
+    }
+
+
+    .sc-skills .card-area{
+        padding: 48px 0 24px;
+    }
+
+    .sc-skills .bottom-area{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+    }
+
+    .sc-skills .bottom-area strong{
+        font-size: 36px;
+    }
+} */

@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit7</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+   
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js"></script>
+    <!-- gsap -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/splitType.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</head>
+<body style="min-width: 1300px;">
+    
+    <header class="header">
+        <div class="header-inner">
+            <h1>
+                <a href="">
+                    <svg viewBox="0 0 166 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-5 text-white lg:h-[22px]"><g clip-path="url(#clip0_277_11931)" fill="currentColor"><path d="M15.38.02A15 15 0 0 0 .43 15.04a14.79 14.79 0 0 0 14.95 14.94 14.98 14.98 0 0 0 0-29.96Zm0 22.28a7.28 7.28 0 1 1 .03-14.57 7.28 7.28 0 0 1-.03 14.57ZM56.34 0h-4.87a1.72 1.72 0 0 0-1.72 1.72V17.7a3.9 3.9 0 1 1-7.82 0V1.72A1.72 1.72 0 0 0 40.21 0h-4.84a1.75 1.75 0 0 0-1.73 1.72v16.29a12.21 12.21 0 0 0 24.42 0V1.71A1.8 1.8 0 0 0 56.34 0ZM80.94 0H63.18a1.75 1.75 0 0 0-1.75 1.75v4.59a1.74 1.74 0 0 0 1.75 1.74h4.72V28.2a1.78 1.78 0 0 0 1.75 1.75h4.8a1.77 1.77 0 0 0 1.74-1.75V8.09h4.75a1.74 1.74 0 0 0 1.74-1.75v-4.6A1.73 1.73 0 0 0 80.94 0ZM137.54 0H119.8a1.74 1.74 0 0 0-1.75 1.75v4.59a1.74 1.74 0 0 0 1.75 1.74h4.72V28.2a1.77 1.77 0 0 0 1.75 1.75h4.8a1.77 1.77 0 0 0 1.74-1.75V8.09h4.73a1.73 1.73 0 0 0 1.74-1.75v-4.6A1.74 1.74 0 0 0 137.54 0ZM101.4 0H87.72a1.75 1.75 0 0 0-1.74 1.75v26.44a1.75 1.75 0 0 0 1.74 1.75h4.7a1.78 1.78 0 0 0 1.76-1.75v-8.7h5.29a1.78 1.78 0 0 0 1.75-1.76V13.8a1.77 1.77 0 0 0-1.75-1.75h-5.29V8.1h7.22a1.74 1.74 0 0 0 1.76-1.75V1.77A1.75 1.75 0 0 0 101.4 0ZM113 12.01h-4.79a1.77 1.77 0 0 0-1.74 1.75v14.4a1.77 1.77 0 0 0 1.74 1.76h4.8a1.78 1.78 0 0 0 1.74-1.75V13.79A1.79 1.79 0 0 0 113 12ZM113 0h-4.79a1.77 1.77 0 0 0-1.74 1.75v4.59a1.76 1.76 0 0 0 1.74 1.74h4.8a1.77 1.77 0 0 0 1.74-1.74v-4.6A1.78 1.78 0 0 0 113 0ZM146.03 29.94h4.07a2.69 2.69 0 0 0 2.59-1.76l12.2-25.48a2.05 2.05 0 0 0 .2-1.05A1.84 1.84 0 0 0 163.3 0h-17.38a1.8 1.8 0 0 0-1.8 1.8v4.58a1.8 1.8 0 0 0 1.8 1.8h6.69a.75.75 0 0 1 .75.71c.01.13-.01.26-.07.37l-8.9 17.96a1.87 1.87 0 0 0 .15 1.96l.08.1a1.8 1.8 0 0 0 1.4.66Z"></path></g>
+                    </svg>
+                </a>
+                <button class="side-btn">
+                    <img src="./assets/img/side.png" alt="">
+                </button>
+            </h1>
+            <nav class="gnb">
+                <ul class="gnb-list">
+                    <li class="gnb-item"><a href="">Our work</a></li>
+                    <li class="gnb-item"><a href="">Our story</a></li>
+                    <li class="gnb-item"><a href="">Careers</a></li>
+                    <li class="gnb-item"><a href="">News & Blog</a></li>
+                </ul>
+            </nav>
+            <div class="sns-area">
+                <ul class="sns-list">
+                    <li class="sns-item">
+                        <a href="" class="FB">
+                            <span class="blind">facebook</span>
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"><g clip-path="url(#fb)"><path d="M10 1.67a8.33 8.33 0 0 0-1.3 16.56v-5.82H6.58V10H8.7V8.16c0-2.08 1.24-3.24 3.15-3.24.9 0 1.86.17 1.86.17v2.04h-1.05c-1.04 0-1.36.65-1.36 1.3V10h2.31l-.37 2.4H11.3v5.83A8.34 8.34 0 0 0 10 1.67Z" fill="currentColor"></path></g><defs><clipPath id="fb"><path fill="#fff" d="M0 0h20v20H0z"></path></clipPath></defs>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="sns-item">
+                        <a href="" class="insta">
+                            <span class="blind">instagram</span>
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"><g clip-path="url(#ig)"><path d="M10 7.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm0-1.67a4.17 4.17 0 1 1 0 8.34 4.17 4.17 0 0 1 0-8.34Zm5.42-.2a1.04 1.04 0 1 1-2.09 0 1.04 1.04 0 0 1 2.09 0ZM10 3.33c-2.06 0-2.4 0-3.36.05-.65.03-1.09.12-1.5.28-.36.14-.62.3-.9.58a2.4 2.4 0 0 0-.58.9c-.16.41-.25.85-.28 1.5-.04.92-.05 1.24-.05 3.36 0 2.06 0 2.4.05 3.36.03.65.12 1.09.28 1.5.14.36.3.62.58.9.28.28.54.44.9.58.41.16.85.25 1.5.28.92.04 1.24.05 3.36.05 2.06 0 2.4 0 3.36-.05.65-.03 1.09-.12 1.5-.28.36-.14.62-.3.9-.58.28-.28.44-.54.58-.9.16-.41.25-.85.28-1.5.04-.92.05-1.24.05-3.36 0-2.06 0-2.4-.05-3.36a4.54 4.54 0 0 0-.28-1.5 2.43 2.43 0 0 0-.58-.9 2.4 2.4 0 0 0-.9-.58c-.41-.16-.85-.25-1.5-.28-.92-.04-1.24-.05-3.36-.05Zm0-1.66c2.26 0 2.55 0 3.44.05.88.04 1.49.18 2.02.38.55.22 1.01.5 1.47.96.43.42.76.93.97 1.48.2.53.34 1.14.38 2.03.04.88.05 1.17.05 3.43a58 58 0 0 1-.05 3.44c-.04.88-.18 1.49-.38 2.02-.21.55-.54 1.06-.96 1.47a4.1 4.1 0 0 1-1.48.97c-.53.2-1.14.34-2.03.38-.88.04-1.17.05-3.43.05a58 58 0 0 1-3.44-.05 6.16 6.16 0 0 1-2.02-.38 4.07 4.07 0 0 1-1.48-.96 4.09 4.09 0 0 1-.96-1.48 6.13 6.13 0 0 1-.38-2.03c-.04-.88-.05-1.17-.05-3.43 0-2.26 0-2.55.05-3.43.04-.9.18-1.5.38-2.03.21-.55.54-1.06.96-1.48.42-.42.93-.75 1.48-.96.53-.2 1.14-.34 2.02-.38.9-.04 1.18-.05 3.44-.05Z" fill="currentColor"></path></g><defs><clipPath id="ig"><path fill="#fff" d="M0 0h20v20H0z"></path></clipPath></defs>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="sns-item">
+                        <a href="" class="youtube">
+                            <span class="blind">YouTube</span>
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"><g clip-path="url(#yt)"><path d="M17.95 5.42c.38 1.48.38 4.58.38 4.58s0 3.1-.38 4.59a2.34 2.34 0 0 1-1.61 1.68c-1.43.4-6.34.4-6.34.4s-4.91 0-6.34-.4a2.34 2.34 0 0 1-1.61-1.68C1.67 13.1 1.67 10 1.67 10s0-3.1.38-4.58c.2-.83.83-1.47 1.61-1.69 1.43-.4 6.34-.4 6.34-.4s4.91 0 6.34.4c.79.22 1.4.87 1.61 1.69Zm-9.62 7.5 5-2.92-5-2.92v5.84Z" fill="currentColor"></path></g><defs><clipPath id="yt"><path fill="#fff" d="M0 0h20v20H0z"></path></clipPath></defs>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="sns-item">
+                        <a href="" class="in">
+                            <span class="blind">LinkedIn</span>
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"><g clip-path="url(#li)"><path d="M15.28 15.28h-2.22V11.8c0-.83-.02-1.9-1.16-1.9-1.16 0-1.33.9-1.33 1.84v3.54H8.34V8.13h2.14v.97h.03a2.34 2.34 0 0 1 2.1-1.16c2.25 0 2.67 1.49 2.67 3.41v3.93ZM5.84 7.15a1.29 1.29 0 1 1 0-2.58 1.29 1.29 0 0 1 0 2.58Zm1.1 8.13H4.73V8.13h2.23v7.15ZM16.4 2.5H3.61c-.62 0-1.11.48-1.11 1.08v12.84c0 .6.5 1.08 1.1 1.08H16.4a1.1 1.1 0 0 0 1.11-1.08V3.58c0-.6-.5-1.08-1.11-1.08Z" fill="currentColor"></path></g><defs><clipPath id="li"><path fill="#fff" d="M0 0h20v20H0z"></path></clipPath></defs>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="sns-item">
+                        <a href="" class="">
+                            <span class="blind">Medium</span>
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"><g clip-path="url(#md)" fill="currentColor"><path d="M10.03 9.54c0 2.51-2.03 4.55-4.52 4.55A4.53 4.53 0 0 1 1 9.54C1 7.04 3.02 5 5.51 5c2.5 0 4.52 2.03 4.52 4.54ZM14.98 9.54c0 2.37-1.02 4.28-2.26 4.28-1.25 0-2.26-1.91-2.26-4.28 0-2.36 1.01-4.27 2.26-4.27 1.24 0 2.25 1.91 2.25 4.27M17 9.54c0 2.12-.36 3.84-.8 3.84-.43 0-.79-1.72-.79-3.84 0-2.11.36-3.83.8-3.83.43 0 .79 1.72.79 3.83Z"></path></g><defs><clipPath id="md"><path fill="#fff" d="M1 5h16v9.09H1z"></path></clipPath></defs>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="side-nav">
+                <div class="side-inner">
+                    <div class="side-top">
+                        <svg viewBox="0 0 166 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="h-5 text-white lg:h-[22px]"><g clip-path="url(#clip0_277_11931)" fill="currentColor"><path d="M15.38.02A15 15 0 0 0 .43 15.04a14.79 14.79 0 0 0 14.95 14.94 14.98 14.98 0 0 0 0-29.96Zm0 22.28a7.28 7.28 0 1 1 .03-14.57 7.28 7.28 0 0 1-.03 14.57ZM56.34 0h-4.87a1.72 1.72 0 0 0-1.72 1.72V17.7a3.9 3.9 0 1 1-7.82 0V1.72A1.72 1.72 0 0 0 40.21 0h-4.84a1.75 1.75 0 0 0-1.73 1.72v16.29a12.21 12.21 0 0 0 24.42 0V1.71A1.8 1.8 0 0 0 56.34 0ZM80.94 0H63.18a1.75 1.75 0 0 0-1.75 1.75v4.59a1.74 1.74 0 0 0 1.75 1.74h4.72V28.2a1.78 1.78 0 0 0 1.75 1.75h4.8a1.77 1.77 0 0 0 1.74-1.75V8.09h4.75a1.74 1.74 0 0 0 1.74-1.75v-4.6A1.73 1.73 0 0 0 80.94 0ZM137.54 0H119.8a1.74 1.74 0 0 0-1.75 1.75v4.59a1.74 1.74 0 0 0 1.75 1.74h4.72V28.2a1.77 1.77 0 0 0 1.75 1.75h4.8a1.77 1.77 0 0 0 1.74-1.75V8.09h4.73a1.73 1.73 0 0 0 1.74-1.75v-4.6A1.74 1.74 0 0 0 137.54 0ZM101.4 0H87.72a1.75 1.75 0 0 0-1.74 1.75v26.44a1.75 1.75 0 0 0 1.74 1.75h4.7a1.78 1.78 0 0 0 1.76-1.75v-8.7h5.29a1.78 1.78 0 0 0 1.75-1.76V13.8a1.77 1.77 0 0 0-1.75-1.75h-5.29V8.1h7.22a1.74 1.74 0 0 0 1.76-1.75V1.77A1.75 1.75 0 0 0 101.4 0ZM113 12.01h-4.79a1.77 1.77 0 0 0-1.74 1.75v14.4a1.77 1.77 0 0 0 1.74 1.76h4.8a1.78 1.78 0 0 0 1.74-1.75V13.79A1.79 1.79 0 0 0 113 12ZM113 0h-4.79a1.77 1.77 0 0 0-1.74 1.75v4.59a1.76 1.76 0 0 0 1.74 1.74h4.8a1.77 1.77 0 0 0 1.74-1.74v-4.6A1.78 1.78 0 0 0 113 0ZM146.03 29.94h4.07a2.69 2.69 0 0 0 2.59-1.76l12.2-25.48a2.05 2.05 0 0 0 .2-1.05A1.84 1.84 0 0 0 163.3 0h-17.38a1.8 1.8 0 0 0-1.8 1.8v4.58a1.8 1.8 0 0 0 1.8 1.8h6.69a.75.75 0 0 1 .75.71c.01.13-.01.26-.07.37l-8.9 17.96a1.87 1.87 0 0 0 .15 1.96l.08.1a1.8 1.8 0 0 0 1.4.66Z"></path></g>
+                        </svg>
+                        <button class="side-btn">
+                            X
+                        </button>
+                    </div>
+                    <ul class="side-list">
+                        <li class="side-item">
+                            <a href="" class="title">Our work</a>
+                        </li>
+                        <li class="side-item">
+                            <a href="" class="title">Our story</a>
+                            <ul class="side-sub">
+                                <li class="sub-item"><a href="" class="link">This is us</a></li>
+                                <li class="sub-item"><a href="" class="link">Media</a></li>
+                                <li class="sub-item"><a href="" class="link">Joint Ventures</a></li>
+                            </ul>
+                        </li>
+                        <li class="side-item">
+                            <a href="" class="title">Careers</a>
+                            <ul class="side-sub">
+                                <li class="sub-item"><a href="" class="link">Why us</a></li>
+                                <li class="sub-item"><a href="" class="link">Benefits</a></li>
+                                <li class="sub-item"><a href="" class="link">Locations</a></li>
+                                <li class="sub-item"><a href="" class="link">Recruitment process</a></li>
+                                <li class="sub-item"><a href="" class="link">All jobs</a></li>
+                            </ul>
+                        </li>
+                        <li class="side-item">
+                            <a href="" class="title">News & Blog</a>
+                        </li>
+                    </ul>
+                    <div class="side-sns">
+                        <ul class="sns-list">
+                            <li class="sns-item">
+                                <span class="blind">facebook</span>
+                                <a href="">
+                                    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white"><g clip-path="url(#fb)"><path d="M10 1.67a8.33 8.33 0 0 0-1.3 16.56v-5.82H6.58V10H8.7V8.16c0-2.08 1.24-3.24 3.15-3.24.9 0 1.86.17 1.86.17v2.04h-1.05c-1.04 0-1.36.65-1.36 1.3V10h2.31l-.37 2.4H11.3v5.83A8.34 8.34 0 0 0 10 1.67Z" fill="currentColor"></path></g><defs><clipPath id="fb"><path fill="#fff" d="M0 0h20v20H0z"></path></clipPath></defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="sns-item">
+                                <span class="blind">instagram</span>
+                                <a href="">
+                                    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white"><g clip-path="url(#ig)"><path d="M10 7.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm0-1.67a4.17 4.17 0 1 1 0 8.34 4.17 4.17 0 0 1 0-8.34Zm5.42-.2a1.04 1.04 0 1 1-2.09 0 1.04 1.04 0 0 1 2.09 0ZM10 3.33c-2.06 0-2.4 0-3.36.05-.65.03-1.09.12-1.5.28-.36.14-.62.3-.9.58a2.4 2.4 0 0 0-.58.9c-.16.41-.25.85-.28 1.5-.04.92-.05 1.24-.05 3.36 0 2.06 0 2.4.05 3.36.03.65.12 1.09.28 1.5.14.36.3.62.58.9.28.28.54.44.9.58.41.16.85.25 1.5.28.92.04 1.24.05 3.36.05 2.06 0 2.4 0 3.36-.05.65-.03 1.09-.12 1.5-.28.36-.14.62-.3.9-.58.28-.28.44-.54.58-.9.16-.41.25-.85.28-1.5.04-.92.05-1.24.05-3.36 0-2.06 0-2.4-.05-3.36a4.54 4.54 0 0 0-.28-1.5 2.43 2.43 0 0 0-.58-.9 2.4 2.4 0 0 0-.9-.58c-.41-.16-.85-.25-1.5-.28-.92-.04-1.24-.05-3.36-.05Zm0-1.66c2.26 0 2.55 0 3.44.05.88.04 1.49.18 2.02.38.55.22 1.01.5 1.47.96.43.42.76.93.97 1.48.2.53.34 1.14.38 2.03.04.88.05 1.17.05 3.43a58 58 0 0 1-.05 3.44c-.04.88-.18 1.49-.38 2.02-.21.55-.54 1.06-.96 1.47a4.1 4.1 0 0 1-1.48.97c-.53.2-1.14.34-2.03.38-.88.04-1.17.05-3.43.05a58 58 0 0 1-3.44-.05 6.16 6.16 0 0 1-2.02-.38 4.07 4.07 0 0 1-1.48-.96 4.09 4.09 0 0 1-.96-1.48 6.13 6.13 0 0 1-.38-2.03c-.04-.88-.05-1.17-.05-3.43 0-2.26 0-2.55.05-3.43.04-.9.18-1.5.38-2.03.21-.55.54-1.06.96-1.48.42-.42.93-.75 1.48-.96.53-.2 1.14-.34 2.02-.38.9-.04 1.18-.05 3.44-.05Z" fill="currentColor"></path></g><defs><clipPath id="ig"><path fill="#fff" d="M0 0h20v20H0z"></path></clipPath></defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="sns-item">
+                                <span class="blind">YouTube</span>
+                                <a href="">
+                                    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white"><g clip-path="url(#yt)"><path d="M17.95 5.42c.38 1.48.38 4.58.38 4.58s0 3.1-.38 4.59a2.34 2.34 0 0 1-1.61 1.68c-1.43.4-6.34.4-6.34.4s-4.91 0-6.34-.4a2.34 2.34 0 0 1-1.61-1.68C1.67 13.1 1.67 10 1.67 10s0-3.1.38-4.58c.2-.83.83-1.47 1.61-1.69 1.43-.4 6.34-.4 6.34-.4s4.91 0 6.34.4c.79.22 1.4.87 1.61 1.69Zm-9.62 7.5 5-2.92-5-2.92v5.84Z" fill="currentColor"></path></g><defs><clipPath id="yt"><path fill="#fff" d="M0 0h20v20H0z"></path></clipPath></defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="sns-item">
+                                <span class="blind">LinkedIn</span>
+                                <a href="">
+                                    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white"><g clip-path="url(#li)"><path d="M15.28 15.28h-2.22V11.8c0-.83-.02-1.9-1.16-1.9-1.16 0-1.33.9-1.33 1.84v3.54H8.34V8.13h2.14v.97h.03a2.34 2.34 0 0 1 2.1-1.16c2.25 0 2.67 1.49 2.67 3.41v3.93ZM5.84 7.15a1.29 1.29 0 1 1 0-2.58 1.29 1.29 0 0 1 0 2.58Zm1.1 8.13H4.73V8.13h2.23v7.15ZM16.4 2.5H3.61c-.62 0-1.11.48-1.11 1.08v12.84c0 .6.5 1.08 1.1 1.08H16.4a1.1 1.1 0 0 0 1.11-1.08V3.58c0-.6-.5-1.08-1.11-1.08Z" fill="currentColor"></path></g><defs><clipPath id="li"><path fill="#fff" d="M0 0h20v20H0z"></path></clipPath></defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="sns-item">
+                                <span class="blind">Medium</span>
+                                <a href="">
+                                    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white"><g clip-path="url(#md)" fill="currentColor"><path d="M10.03 9.54c0 2.51-2.03 4.55-4.52 4.55A4.53 4.53 0 0 1 1 9.54C1 7.04 3.02 5 5.51 5c2.5 0 4.52 2.03 4.52 4.54ZM14.98 9.54c0 2.37-1.02 4.28-2.26 4.28-1.25 0-2.26-1.91-2.26-4.28 0-2.36 1.01-4.27 2.26-4.27 1.24 0 2.25 1.91 2.25 4.27M17 9.54c0 2.12-.36 3.84-.8 3.84-.43 0-.79-1.72-.79-3.84 0-2.11.36-3.83.8-3.83.43 0 .79 1.72.79 3.83Z"></path></g><defs><clipPath id="md"><path fill="#fff" d="M1 5h16v9.09H1z"></path></clipPath></defs>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <div class="main-inner">
+            <section class="sc-top-video">
+                <div class="video-area">
+                    <video src="https://cdn-o7.o7web.com/assets/0_home/o7_homepage_video.mp4" autoplay="autoplay" loop muted="muted"></video>
+                </div>
+                <div class="bg"></div>
+                <div class="text-area">
+                    <h2>
+                        Our playground,<br>your game.
+                        <p>We are Outfit7</p>
+                    </h2>
+                </div>
+                <section class="sc-top-card">
+                    <div class="top-card-inner">
+                        <ul class="card-list">
+                            <li class="card-item">
+                                <div class="img-box">
+                                    <a href="" class="img">
+                                        <img src="./assets/img/main-card1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-box">
+                                    <p>Talent Camp 2023 -<br>Pre-registration Open!</p>
+                                    <a href="" class="more">Register Now
+                                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 -rotate-45 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card-item">
+                                <div class="img-box">
+                                    <a href="" class="img">
+                                        <img src="./assets/img/main-card2.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-box">
+                                    <p>The Chase Begins in Talking Tom Time Rush!</p>
+                                    <a href="" class="more">Read more
+                                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 -rotate-45 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card-item">
+                                <div class="img-box">
+                                    <a href="" class="img">
+                                        <img src="./assets/img/main-card3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-box">
+                                    <p>Talking Tom & Friends: #1 for Global Downloads 10 Years in a Row!</p>
+                                    <a href="" class="more">Read more
+                                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 -rotate-45 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card-item">
+                                <div class="img-box">
+                                    <a href="" class="img">
+                                        <img src="./assets/img/main-card4.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-box">
+                                    <p>How We Use Video Content to Expand the Story of Our Games.</p>
+                                    <a href="" class="more">Read more
+                                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 -rotate-45 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper top-card-swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="img-box">
+                                    <a href="" class="img">
+                                        <img src="./assets/img/main-card1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-box">
+                                    <p>Talent Camp 2023 -<br>Pre-registration Open!</p>
+                                    <a href="" class="more">Register Now
+                                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 -rotate-45 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card-item">
+                                <div class="img-box">
+                                    <a href="" class="img">
+                                        <img src="./assets/img/main-card2.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-box">
+                                    <p>The Chase Begins in Talking Tom Time Rush!</p>
+                                    <a href="" class="more">Read more
+                                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 -rotate-45 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card-item">
+                                <div class="img-box">
+                                    <a href="" class="img">
+                                        <img src="./assets/img/main-card3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-box">
+                                    <p>Talking Tom & Friends: #1 for Global Downloads 10 Years in a Row!</p>
+                                    <a href="" class="more">Read more
+                                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 -rotate-45 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card-item">
+                                <div class="img-box">
+                                    <a href="" class="img">
+                                        <img src="./assets/img/main-card4.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="text-box">
+                                    <p>How We Use Video Content to Expand the Story of Our Games.</p>
+                                    <a href="" class="more">Read more
+                                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 -rotate-45 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <section class="sc-downloads">
+
+
+                <h2 class="blind">our story</h2>
+
+                <div class="sticky-area">
+
+                    <div class="bg-area">
+                        <div class="bg-color"></div>
+                        <canvas class="bg" id="downloads-bg"></canvas>
+                        <div class="slide-text">
+                            <div class="text-box">
+                                <span>21+ billion downloads<br>
+                                    and 107+ billion views.<br>
+                                    We've got something<br>
+                                    good going on.</span>
+                            </div>
+                            <a href="" class="more-box" >Our story
+                                <div class="arrow">
+                                    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-5 h-5 text-black transition-colors group-hover:text-white group-focus:text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="downlods-inner">
+                    <!-- 빨간색 -->
+
+                    <div class="card-area">
+                        <a href="" class="item">
+                           <!--  <div href="" class="img-box">
+                                <img src="./assets/img/tom-friend.png" alt="">
+                            </div> -->
+                            <div class="tom-inner">
+                                <div class="tom-area">
+                                    <div class="img-box">
+                                    <div class="logo"><img src="./assets/img/tom-logo.png" alt=""></div>
+                                        <img src="./assets/img/tom-friend.png" alt="" class="tom-bg">
+                                    </div>
+                                    <div class="text-box">
+                                        <div class="text">
+                                            <strong>Talking Tom & Friends</strong>
+                                            <p>Meet the best friends who started it all.</p>
+                                        </div>
+                                        <div class="more-box">Visit website
+                                            <div class="arrow">
+                                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 -rotate-45 w-5 h-5 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </section>
+            <section class="sc-hyperdot">
+                <h2 class="blind">hyperdot</h2>
+
+                <!-- 높이가있는 부모 -->
+                <div class="hyper-inner">
+
+
+                    <!-- 애가 스티키 -->
+                    <div class="sticky-area">
+                        <div class="bg-area">
+                            <div class="bg-blue">
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <strong>We're obsessed with pushing boundaries, building worlds, and bringing big fun to every screen.</strong>
+                            <div class="logo">
+                                <p>Published by:
+                                </p>
+                                <svg class="h-9" viewBox="0 0 142 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_1185_4349)"><path d="M10.2616 3.00238C7.76493 3.01245 5.37406 4.01162 3.61267 5.78104C1.85129 7.55045 0.862982 9.94585 0.864261 12.4425C0.851534 13.6801 1.08592 14.9078 1.55367 16.0537C2.02143 17.1996 2.71314 18.2406 3.58831 19.1158C4.46348 19.9909 5.5045 20.6827 6.65038 21.1504C7.79626 21.6182 9.02396 21.8525 10.2616 21.8398C11.5163 21.868 12.7639 21.6452 13.9314 21.1846C15.0988 20.7239 16.1624 20.0346 17.0597 19.1572C17.9571 18.2798 18.6701 17.232 19.1568 16.0752C19.6436 14.9185 19.8944 13.6761 19.8944 12.4211C19.8944 11.1661 19.6436 9.92371 19.1568 8.76695C18.6701 7.61018 17.9571 6.56234 17.0597 5.68494C16.1624 4.80754 15.0988 4.11827 13.9314 3.65761C12.7639 3.19695 11.5163 2.97418 10.2616 3.00238Z" fill="#F2F2F2"></path><path d="M50.0682 11.9049V19.0041H48.6979V12.257C48.6979 9.307 47.299 7.40852 44.6963 7.40852C42.0936 7.40852 39.8002 9.58298 39.8002 12.8328V19.0183H38.4536V0.414062H39.7526V9.48306H39.824C40.2566 8.50971 40.9658 7.685 41.8634 7.11144C42.7609 6.53788 43.8073 6.24077 44.8723 6.25704C48.1697 6.25704 50.0682 8.58378 50.0682 11.9287" fill="#F2F2F2"></path><path d="M62.5629 6.40918L55.6922 22.1491C55.4862 22.6769 55.1307 23.1331 54.6692 23.4619C54.2077 23.7907 53.6604 23.9777 53.0943 24H51.2433V22.8009H52.8421C53.211 22.7873 53.568 22.6668 53.8696 22.4539C54.1712 22.241 54.4044 21.945 54.5407 21.6019L55.8445 18.6518L50.896 6.40918H52.3948L56.5677 17.2006H56.6153L61.1402 6.43296L62.5629 6.40918Z" fill="#F2F2F2"></path><path d="M65.5037 6.4091V9.23067H65.556C66.0944 8.30164 66.8717 7.5337 67.8071 7.00657C68.7426 6.47944 69.8021 6.21235 70.8756 6.23305C71.7152 6.22725 72.5475 6.38921 73.3236 6.70943C74.0998 7.02965 74.8041 7.50167 75.3954 8.09779C75.9866 8.69392 76.4529 9.40214 76.7667 10.1809C77.0805 10.9596 77.2356 11.7932 77.223 12.6327C77.2434 13.4894 77.0913 14.3415 76.7758 15.1383C76.4602 15.935 75.9876 16.6602 75.3861 17.2706C74.7846 17.881 74.0665 18.3641 73.2744 18.6913C72.4824 19.0185 71.6326 19.1831 70.7757 19.1752C69.7018 19.195 68.6436 18.9159 67.7193 18.3688C66.795 17.8218 66.0411 17.0285 65.5417 16.0776H65.4894V23.9999H64.1904V6.39483L65.5037 6.4091ZM65.5037 12.7041C65.51 14.0922 66.0675 15.421 67.0535 16.3981C68.0395 17.3752 69.3733 17.9206 70.7614 17.9143C72.1495 17.9079 73.4783 17.3505 74.4554 16.3644C75.4325 15.3784 75.9779 14.0447 75.9716 12.6565C75.976 11.9712 75.8448 11.2917 75.5857 10.6572C75.3266 10.0227 74.9447 9.44564 74.4618 8.95925C73.979 8.47285 73.4047 8.08671 72.7721 7.82299C72.1395 7.55927 71.461 7.4232 70.7757 7.42258C69.3776 7.43631 68.041 7.99941 67.0546 8.99028C66.0682 9.98114 65.5111 11.3202 65.5037 12.7184" fill="#F2F2F2"></path><path d="M85.5448 19.1753C84.6634 19.2255 83.7812 19.0948 82.9522 18.7912C82.1233 18.4877 81.3652 18.0178 80.7246 17.4104C80.084 16.803 79.5745 16.071 79.2274 15.2594C78.8802 14.4477 78.7028 13.5736 78.7061 12.6909C78.7093 11.8081 78.8932 10.9354 79.2463 10.1263C79.5994 9.31723 80.1143 8.58897 80.7593 7.98631C81.4044 7.38365 82.1659 6.91934 82.997 6.62194C83.8282 6.32454 84.7114 6.20034 85.5924 6.25699C86.4212 6.25009 87.2432 6.40707 88.0112 6.71891C88.7792 7.03074 89.478 7.49127 90.0674 8.07405C90.6568 8.65682 91.1252 9.35034 91.4457 10.1147C91.7662 10.8791 91.9325 11.6993 91.9349 12.5282C91.9349 12.7566 91.8874 13.0801 91.8636 13.3038H80.4488C80.5401 14.5974 81.1247 15.8065 82.0819 16.6813C83.0391 17.5562 84.2958 18.03 85.5924 18.0048C86.5736 18.0233 87.5384 17.7507 88.3649 17.2215C89.1914 16.6922 89.8426 15.93 90.2363 15.031H91.6352C91.1795 16.2671 90.3498 17.3305 89.2617 18.0733C88.1736 18.8161 86.881 19.2012 85.5638 19.1753H85.5448ZM90.5646 12.1571C90.5092 10.8789 89.9599 9.67205 89.0324 8.79074C88.105 7.90944 86.8717 7.42242 85.5924 7.43225C84.2985 7.42383 83.0496 7.907 82.0984 8.78409C81.1471 9.66118 80.5643 10.8667 80.4679 12.1571H90.5646Z" fill="#F2F2F2"></path><path d="M95.5845 6.40928V9.33076H95.6321C96.0318 7.90333 97.5829 6.35693 99.981 6.35693H100.98V7.60832H99.8192C97.3212 7.60832 95.6226 9.70666 95.6226 12.5568V19.004H94.2998V6.40928H95.5845Z" fill="#F2F2F2"></path><path d="M112.119 7.28458H112.238V0.0141602H116.044V19.0039H112.171V17.6763H112.047C111.648 18.4281 109.92 19.3274 108.15 19.3274C107.266 19.3271 106.39 19.1497 105.575 18.8056C104.76 18.4616 104.022 17.9579 103.405 17.3242C102.788 16.6906 102.304 15.9397 101.981 15.116C101.659 14.2923 101.504 13.4124 101.527 12.528C101.527 8.68347 104.601 5.73343 107.922 5.73343C110.12 5.73343 111.495 6.60892 112.119 7.30836V7.28458ZM112.195 12.5423C112.179 11.8951 111.972 11.267 111.601 10.7368C111.229 10.2065 110.71 9.79777 110.107 9.56171C109.504 9.32565 108.845 9.27283 108.212 9.40984C107.579 9.54685 107.001 9.86761 106.55 10.3319C106.099 10.7962 105.795 11.3833 105.676 12.0197C105.557 12.6561 105.629 13.3135 105.882 13.9093C106.135 14.5051 106.559 15.0129 107.099 15.369C107.64 15.7251 108.274 15.9137 108.921 15.9111C109.359 15.9099 109.792 15.8213 110.195 15.6505C110.598 15.4796 110.962 15.2298 111.267 14.916C111.572 14.6021 111.812 14.2304 111.971 13.8228C112.13 13.4152 112.206 12.9798 112.195 12.5423Z" fill="#F2F2F2"></path><path d="M117.848 12.5043C117.848 8.73113 120.998 5.70972 124.947 5.70972C126.279 5.76752 127.565 6.21541 128.644 6.99774C129.724 7.78007 130.55 8.86236 131.02 10.1102C131.489 11.358 131.582 12.7163 131.286 14.0164C130.991 15.3165 130.32 16.5011 129.356 17.4229C128.393 18.3448 127.18 18.9634 125.869 19.2019C124.557 19.4403 123.204 19.2881 121.978 18.7641C120.752 18.2401 119.707 17.3675 118.972 16.2546C118.238 15.1417 117.847 13.8376 117.848 12.5043ZM128.168 12.5043C128.161 11.8596 127.964 11.2313 127.601 10.6986C127.238 10.1659 126.725 9.75276 126.127 9.51124C125.529 9.26972 124.873 9.21066 124.242 9.34151C123.61 9.47235 123.032 9.78724 122.579 10.2464C122.127 10.7057 121.82 11.2886 121.699 11.9218C121.577 12.555 121.646 13.21 121.896 13.8042C122.146 14.3984 122.567 14.9053 123.104 15.2608C123.642 15.6163 124.274 15.8045 124.918 15.8017C125.786 15.7929 126.614 15.4412 127.223 14.8233C127.832 14.2055 128.172 13.3718 128.168 12.5043Z" fill="#F2F2F2"></path><path d="M138.479 9.50675V14.5314C138.469 14.6642 138.487 14.7977 138.532 14.9232C138.577 15.0487 138.647 15.1633 138.739 15.2598C138.831 15.3562 138.942 15.4323 139.065 15.483C139.189 15.5337 139.321 15.5581 139.454 15.5543H142V19.004H138.455C136.076 19.004 134.606 17.429 134.606 15.3545V9.50675H132.607V6.00954H134.601V2.92627H138.474V6.00002H141.995V9.49724L138.479 9.50675Z" fill="#F2F2F2"></path></g><defs><clipPath id="clip0_1185_4349"><rect width="141.136" height="24" fill="white" transform="translate(0.864258)"></rect></clipPath></defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="card-box">
+                            <ul class="card-list">
+                                <li class="card-item">
+                                    <img src="./assets/img/dot-card1.png" alt="">
+                                    <div class="black"></div>
+                                    <p>Mythic Legends</p>
+                                </li>
+                                <li class="card-item">
+                                    <img src="./assets/img/dot-card2.png" alt="">
+                                    <div class="black"></div>
+                                    <p>Swamp Attack</p>
+                                </li>
+                            </ul>
+                            <a href="" class="more-box">Dive in!
+                                <div class="arrow">
+                                    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-5 h-5 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                   
+            </section>
+            <section class="sc-team">
+                <div class="team-inner">
+                        <div class="text-area">
+                            <h2>Our team is next-level.<br> And we're proud of it.</h2>
+                        </div>
+                    <div class="slide-area">
+                            <div class="slide-card f" data-y="-20">
+                                <img src="./assets/img/slide1.jpg" alt="">
+                            </div>
+                            <div class="slide-card s" data-y="-40">
+                                <a href="">
+                                    <img src="./assets/img/slide2.jpg" alt="">
+                                    <div class="bg"></div>
+                                    <div class="slide-text">
+                                        <p>I Have the Best Job in the World.</p>
+                                        <span>Read the story
+                                            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </a>
+                                <p></p>
+                            </div>
+                            <div class="slide-card t" data-y="-20">
+                                <a href="">
+                                    <img src="./assets/img/slide3.jpg" alt="">
+                                    <div class="bg"></div>
+                                    <div class="slide-text">
+                                        <p>I Have the Best Job in the World.</p>
+                                        <span>Read the story
+                                            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </a>
+                                <p></p>
+                            </div>
+                            <div class="slide-card ff" data-y="-70">
+                                <img src="./assets/img/slide4.jpg" alt="">
+                            </div>
+                            <div class="slide-card fff" data-y="-30">
+                                <img src="./assets/img/slide5.jpg" alt="">
+                            </div>
+                    </div>
+                </div>
+            
+            </section>
+            <section class="sc-skills">
+                <div class="skills-inner">
+                    <div class="headline">
+                        <h2>At Outfit7, passion and <br> play lead the way.</h2>
+                            <a href="" class="more-box">
+                                <p>Take a peek behind the scenes
+                                    <div class="arrow">
+                                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-5 h-5 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                        </svg>
+                                    </div>
+                                </p>
+                            </a>
+                    </div>
+                    <div class="card-area">
+                        <ul class="card-list">
+                            <li class="card-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/img/last-card1.jpg" alt="">
+                                    <div class="bg"></div>
+                                </div>
+                                <div class="text-box">
+                                    <strong>How to Land a Job in Gaming: Practical Tips</strong>
+                                    <p>
+                                        <span class="wrap">
+                                            <span class="text">Read the story</span>
+                                            <span class="text">Read the story</span>
+                                        </span>
+                                    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                    </svg>
+                                    </p>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="card-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/img/last-card2.jpg" alt="">
+                                    <div class="bg"></div>
+                                </div>
+                                <div class="text-box">
+                                    <strong>My Talking Hank is Now Available on Huawei AppGallery!</strong>
+                                    <p>
+                                        <span class="wrap">
+                                            <span class="text">Read the story</span>
+                                            <span class="text">Read the story</span>
+                                        </span>
+                                    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                    </svg>
+                                    </p>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="card-item">
+                            <a href="">
+                                <div class="img-box">
+                                    <img src="./assets/img/last-card3.jpg" alt="">
+                                    <div class="bg"></div>
+                                </div>
+                                <div class="text-box">
+                                    <strong>How to Land a Job as a UI Game Artist at Outfit7</strong>
+                                    <p>
+                                        <span class="wrap">
+                                            <span class="text">Read the story</span>
+                                            <span class="text">Read the story</span>
+                                        </span>
+                                    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-6 h-6 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                    </svg>
+                                    </p>
+                                </div>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom-area">
+                        <strong>Are you stacked with skills?</strong>
+                        <a href="" class="more-box" >Explore all open job openings
+                            <div class="arrow">
+                            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-5 h-5 text-black transition-colors group-hover:text-white group-focus:text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                            </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="logo-area">
+                    <h2 class="logo">
+                        <svg viewBox="0 0 166 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="text-white h-[30px]"><g clip-path="url(#clip0_277_11931)" fill="currentColor"><path d="M15.38.02A15 15 0 0 0 .43 15.04a14.79 14.79 0 0 0 14.95 14.94 14.98 14.98 0 0 0 0-29.96Zm0 22.28a7.28 7.28 0 1 1 .03-14.57 7.28 7.28 0 0 1-.03 14.57ZM56.34 0h-4.87a1.72 1.72 0 0 0-1.72 1.72V17.7a3.9 3.9 0 1 1-7.82 0V1.72A1.72 1.72 0 0 0 40.21 0h-4.84a1.75 1.75 0 0 0-1.73 1.72v16.29a12.21 12.21 0 0 0 24.42 0V1.71A1.8 1.8 0 0 0 56.34 0ZM80.94 0H63.18a1.75 1.75 0 0 0-1.75 1.75v4.59a1.74 1.74 0 0 0 1.75 1.74h4.72V28.2a1.78 1.78 0 0 0 1.75 1.75h4.8a1.77 1.77 0 0 0 1.74-1.75V8.09h4.75a1.74 1.74 0 0 0 1.74-1.75v-4.6A1.73 1.73 0 0 0 80.94 0ZM137.54 0H119.8a1.74 1.74 0 0 0-1.75 1.75v4.59a1.74 1.74 0 0 0 1.75 1.74h4.72V28.2a1.77 1.77 0 0 0 1.75 1.75h4.8a1.77 1.77 0 0 0 1.74-1.75V8.09h4.73a1.73 1.73 0 0 0 1.74-1.75v-4.6A1.74 1.74 0 0 0 137.54 0ZM101.4 0H87.72a1.75 1.75 0 0 0-1.74 1.75v26.44a1.75 1.75 0 0 0 1.74 1.75h4.7a1.78 1.78 0 0 0 1.76-1.75v-8.7h5.29a1.78 1.78 0 0 0 1.75-1.76V13.8a1.77 1.77 0 0 0-1.75-1.75h-5.29V8.1h7.22a1.74 1.74 0 0 0 1.76-1.75V1.77A1.75 1.75 0 0 0 101.4 0ZM113 12.01h-4.79a1.77 1.77 0 0 0-1.74 1.75v14.4a1.77 1.77 0 0 0 1.74 1.76h4.8a1.78 1.78 0 0 0 1.74-1.75V13.79A1.79 1.79 0 0 0 113 12ZM113 0h-4.79a1.77 1.77 0 0 0-1.74 1.75v4.59a1.76 1.76 0 0 0 1.74 1.74h4.8a1.77 1.77 0 0 0 1.74-1.74v-4.6A1.78 1.78 0 0 0 113 0ZM146.03 29.94h4.07a2.69 2.69 0 0 0 2.59-1.76l12.2-25.48a2.05 2.05 0 0 0 .2-1.05A1.84 1.84 0 0 0 163.3 0h-17.38a1.8 1.8 0 0 0-1.8 1.8v4.58a1.8 1.8 0 0 0 1.8 1.8h6.69a.75.75 0 0 1 .75.71c.01.13-.01.26-.07.37l-8.9 17.96a1.87 1.87 0 0 0 .15 1.96l.08.1a1.8 1.8 0 0 0 1.4.66Z"></path></g>
+                        </svg>
+                        <div class="more-box">
+                            <p>Contact us
+                            </p>
+                            <div class="arrow">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-5 h-5 text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </h2>
+                </div>
+                <div class="gnb-area">
+                    <ul class="gnb-list">
+                        <li class="gnb-item">
+                            <a href="">Our work</a>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="">Our story</a>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="">Giving back</a>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="">Media</a>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="">Careers</a>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="">News & Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="join-area">
+                        <a href="" class="more-box">
+                            <p>Outfit7 for Partners
+                            </p>
+                            <div class="arrow">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-5 h-5 text-black transition-colors group-hover:text-white group-focus:text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="" class="more-box bottom">
+                            <p>Outfit7 Joint Ventures
+                            </p>
+                            <div class="arrow">
+                                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-5 h-5 text-black transition-colors group-hover:text-white group-focus:text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                </svg>
+                            </div>
+                        </a>
+                        <div class="also-box">
+                            <p> Check also
+                            </p>
+                            <a href="" class="more-box">
+                                <svg class="h-6 mr-16" viewBox="0 0 142 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_1185_4349)"><path d="M10.2616 3.00238C7.76493 3.01245 5.37406 4.01162 3.61267 5.78104C1.85129 7.55045 0.862982 9.94585 0.864261 12.4425C0.851534 13.6801 1.08592 14.9078 1.55367 16.0537C2.02143 17.1996 2.71314 18.2406 3.58831 19.1158C4.46348 19.9909 5.5045 20.6827 6.65038 21.1504C7.79626 21.6182 9.02396 21.8525 10.2616 21.8398C11.5163 21.868 12.7639 21.6452 13.9314 21.1846C15.0988 20.7239 16.1624 20.0346 17.0597 19.1572C17.9571 18.2798 18.6701 17.232 19.1568 16.0752C19.6436 14.9185 19.8944 13.6761 19.8944 12.4211C19.8944 11.1661 19.6436 9.92371 19.1568 8.76695C18.6701 7.61018 17.9571 6.56234 17.0597 5.68494C16.1624 4.80754 15.0988 4.11827 13.9314 3.65761C12.7639 3.19695 11.5163 2.97418 10.2616 3.00238Z" fill="#F2F2F2"></path><path d="M50.0682 11.9049V19.0041H48.6979V12.257C48.6979 9.307 47.299 7.40852 44.6963 7.40852C42.0936 7.40852 39.8002 9.58298 39.8002 12.8328V19.0183H38.4536V0.414062H39.7526V9.48306H39.824C40.2566 8.50971 40.9658 7.685 41.8634 7.11144C42.7609 6.53788 43.8073 6.24077 44.8723 6.25704C48.1697 6.25704 50.0682 8.58378 50.0682 11.9287" fill="#F2F2F2"></path><path d="M62.5629 6.40918L55.6922 22.1491C55.4862 22.6769 55.1307 23.1331 54.6692 23.4619C54.2077 23.7907 53.6604 23.9777 53.0943 24H51.2433V22.8009H52.8421C53.211 22.7873 53.568 22.6668 53.8696 22.4539C54.1712 22.241 54.4044 21.945 54.5407 21.6019L55.8445 18.6518L50.896 6.40918H52.3948L56.5677 17.2006H56.6153L61.1402 6.43296L62.5629 6.40918Z" fill="#F2F2F2"></path><path d="M65.5037 6.4091V9.23067H65.556C66.0944 8.30164 66.8717 7.5337 67.8071 7.00657C68.7426 6.47944 69.8021 6.21235 70.8756 6.23305C71.7152 6.22725 72.5475 6.38921 73.3236 6.70943C74.0998 7.02965 74.8041 7.50167 75.3954 8.09779C75.9866 8.69392 76.4529 9.40214 76.7667 10.1809C77.0805 10.9596 77.2356 11.7932 77.223 12.6327C77.2434 13.4894 77.0913 14.3415 76.7758 15.1383C76.4602 15.935 75.9876 16.6602 75.3861 17.2706C74.7846 17.881 74.0665 18.3641 73.2744 18.6913C72.4824 19.0185 71.6326 19.1831 70.7757 19.1752C69.7018 19.195 68.6436 18.9159 67.7193 18.3688C66.795 17.8218 66.0411 17.0285 65.5417 16.0776H65.4894V23.9999H64.1904V6.39483L65.5037 6.4091ZM65.5037 12.7041C65.51 14.0922 66.0675 15.421 67.0535 16.3981C68.0395 17.3752 69.3733 17.9206 70.7614 17.9143C72.1495 17.9079 73.4783 17.3505 74.4554 16.3644C75.4325 15.3784 75.9779 14.0447 75.9716 12.6565C75.976 11.9712 75.8448 11.2917 75.5857 10.6572C75.3266 10.0227 74.9447 9.44564 74.4618 8.95925C73.979 8.47285 73.4047 8.08671 72.7721 7.82299C72.1395 7.55927 71.461 7.4232 70.7757 7.42258C69.3776 7.43631 68.041 7.99941 67.0546 8.99028C66.0682 9.98114 65.5111 11.3202 65.5037 12.7184" fill="#F2F2F2"></path><path d="M85.5448 19.1753C84.6634 19.2255 83.7812 19.0948 82.9522 18.7912C82.1233 18.4877 81.3652 18.0178 80.7246 17.4104C80.084 16.803 79.5745 16.071 79.2274 15.2594C78.8802 14.4477 78.7028 13.5736 78.7061 12.6909C78.7093 11.8081 78.8932 10.9354 79.2463 10.1263C79.5994 9.31723 80.1143 8.58897 80.7593 7.98631C81.4044 7.38365 82.1659 6.91934 82.997 6.62194C83.8282 6.32454 84.7114 6.20034 85.5924 6.25699C86.4212 6.25009 87.2432 6.40707 88.0112 6.71891C88.7792 7.03074 89.478 7.49127 90.0674 8.07405C90.6568 8.65682 91.1252 9.35034 91.4457 10.1147C91.7662 10.8791 91.9325 11.6993 91.9349 12.5282C91.9349 12.7566 91.8874 13.0801 91.8636 13.3038H80.4488C80.5401 14.5974 81.1247 15.8065 82.0819 16.6813C83.0391 17.5562 84.2958 18.03 85.5924 18.0048C86.5736 18.0233 87.5384 17.7507 88.3649 17.2215C89.1914 16.6922 89.8426 15.93 90.2363 15.031H91.6352C91.1795 16.2671 90.3498 17.3305 89.2617 18.0733C88.1736 18.8161 86.881 19.2012 85.5638 19.1753H85.5448ZM90.5646 12.1571C90.5092 10.8789 89.9599 9.67205 89.0324 8.79074C88.105 7.90944 86.8717 7.42242 85.5924 7.43225C84.2985 7.42383 83.0496 7.907 82.0984 8.78409C81.1471 9.66118 80.5643 10.8667 80.4679 12.1571H90.5646Z" fill="#F2F2F2"></path><path d="M95.5845 6.40928V9.33076H95.6321C96.0318 7.90333 97.5829 6.35693 99.981 6.35693H100.98V7.60832H99.8192C97.3212 7.60832 95.6226 9.70666 95.6226 12.5568V19.004H94.2998V6.40928H95.5845Z" fill="#F2F2F2"></path><path d="M112.119 7.28458H112.238V0.0141602H116.044V19.0039H112.171V17.6763H112.047C111.648 18.4281 109.92 19.3274 108.15 19.3274C107.266 19.3271 106.39 19.1497 105.575 18.8056C104.76 18.4616 104.022 17.9579 103.405 17.3242C102.788 16.6906 102.304 15.9397 101.981 15.116C101.659 14.2923 101.504 13.4124 101.527 12.528C101.527 8.68347 104.601 5.73343 107.922 5.73343C110.12 5.73343 111.495 6.60892 112.119 7.30836V7.28458ZM112.195 12.5423C112.179 11.8951 111.972 11.267 111.601 10.7368C111.229 10.2065 110.71 9.79777 110.107 9.56171C109.504 9.32565 108.845 9.27283 108.212 9.40984C107.579 9.54685 107.001 9.86761 106.55 10.3319C106.099 10.7962 105.795 11.3833 105.676 12.0197C105.557 12.6561 105.629 13.3135 105.882 13.9093C106.135 14.5051 106.559 15.0129 107.099 15.369C107.64 15.7251 108.274 15.9137 108.921 15.9111C109.359 15.9099 109.792 15.8213 110.195 15.6505C110.598 15.4796 110.962 15.2298 111.267 14.916C111.572 14.6021 111.812 14.2304 111.971 13.8228C112.13 13.4152 112.206 12.9798 112.195 12.5423Z" fill="#F2F2F2"></path><path d="M117.848 12.5043C117.848 8.73113 120.998 5.70972 124.947 5.70972C126.279 5.76752 127.565 6.21541 128.644 6.99774C129.724 7.78007 130.55 8.86236 131.02 10.1102C131.489 11.358 131.582 12.7163 131.286 14.0164C130.991 15.3165 130.32 16.5011 129.356 17.4229C128.393 18.3448 127.18 18.9634 125.869 19.2019C124.557 19.4403 123.204 19.2881 121.978 18.7641C120.752 18.2401 119.707 17.3675 118.972 16.2546C118.238 15.1417 117.847 13.8376 117.848 12.5043ZM128.168 12.5043C128.161 11.8596 127.964 11.2313 127.601 10.6986C127.238 10.1659 126.725 9.75276 126.127 9.51124C125.529 9.26972 124.873 9.21066 124.242 9.34151C123.61 9.47235 123.032 9.78724 122.579 10.2464C122.127 10.7057 121.82 11.2886 121.699 11.9218C121.577 12.555 121.646 13.21 121.896 13.8042C122.146 14.3984 122.567 14.9053 123.104 15.2608C123.642 15.6163 124.274 15.8045 124.918 15.8017C125.786 15.7929 126.614 15.4412 127.223 14.8233C127.832 14.2055 128.172 13.3718 128.168 12.5043Z" fill="#F2F2F2"></path><path d="M138.479 9.50675V14.5314C138.469 14.6642 138.487 14.7977 138.532 14.9232C138.577 15.0487 138.647 15.1633 138.739 15.2598C138.831 15.3562 138.942 15.4323 139.065 15.483C139.189 15.5337 139.321 15.5581 139.454 15.5543H142V19.004H138.455C136.076 19.004 134.606 17.429 134.606 15.3545V9.50675H132.607V6.00954H134.601V2.92627H138.474V6.00002H141.995V9.49724L138.479 9.50675Z" fill="#F2F2F2"></path></g><defs><clipPath id="clip0_1185_4349"><rect width="141.136" height="24" fill="white" transform="translate(0.864258)"></rect></clipPath></defs>
+                                </svg>
+                                <div class="arrow">
+                                    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative z-10 w-5 h-5 text-black transition-colors group-hover:text-white group-focus:text-white"><path d="M21.56 14.67 14.41 7.5l1.89-1.88L26.67 16 16.3 26.37 14.4 24.5l7.15-7.16H5.33v-2.66h16.23Z" fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                </div>
+            </div>
+            <div class="sns-area">
+                <h3>Find us on socials:
+                </h3>
+                <ul class="sns-list">
+                    <li class="sns-item">
+                        <a href="">
+                            <span class="blind">facebook</span>
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5"><g clip-path="url(#fb)"><path d="M10 1.67a8.33 8.33 0 0 0-1.3 16.56v-5.82H6.58V10H8.7V8.16c0-2.08 1.24-3.24 3.15-3.24.9 0 1.86.17 1.86.17v2.04h-1.05c-1.04 0-1.36.65-1.36 1.3V10h2.31l-.37 2.4H11.3v5.83A8.34 8.34 0 0 0 10 1.67Z" fill="currentColor"></path></g><defs><clipPath id="fb"><path fill="#fff" d="M0 0h20v20H0z"></path></clipPath></defs>
+                            </svg>
+                            
+                        </a>
+                    </li>
+                    <li class="sns-item">
+                        <a href="">
+                            <span class="blind">instagram</span>
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5"><g clip-path="url(#ig)"><path d="M10 7.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm0-1.67a4.17 4.17 0 1 1 0 8.34 4.17 4.17 0 0 1 0-8.34Zm5.42-.2a1.04 1.04 0 1 1-2.09 0 1.04 1.04 0 0 1 2.09 0ZM10 3.33c-2.06 0-2.4 0-3.36.05-.65.03-1.09.12-1.5.28-.36.14-.62.3-.9.58a2.4 2.4 0 0 0-.58.9c-.16.41-.25.85-.28 1.5-.04.92-.05 1.24-.05 3.36 0 2.06 0 2.4.05 3.36.03.65.12 1.09.28 1.5.14.36.3.62.58.9.28.28.54.44.9.58.41.16.85.25 1.5.28.92.04 1.24.05 3.36.05 2.06 0 2.4 0 3.36-.05.65-.03 1.09-.12 1.5-.28.36-.14.62-.3.9-.58.28-.28.44-.54.58-.9.16-.41.25-.85.28-1.5.04-.92.05-1.24.05-3.36 0-2.06 0-2.4-.05-3.36a4.54 4.54 0 0 0-.28-1.5 2.43 2.43 0 0 0-.58-.9 2.4 2.4 0 0 0-.9-.58c-.41-.16-.85-.25-1.5-.28-.92-.04-1.24-.05-3.36-.05Zm0-1.66c2.26 0 2.55 0 3.44.05.88.04 1.49.18 2.02.38.55.22 1.01.5 1.47.96.43.42.76.93.97 1.48.2.53.34 1.14.38 2.03.04.88.05 1.17.05 3.43a58 58 0 0 1-.05 3.44c-.04.88-.18 1.49-.38 2.02-.21.55-.54 1.06-.96 1.47a4.1 4.1 0 0 1-1.48.97c-.53.2-1.14.34-2.03.38-.88.04-1.17.05-3.43.05a58 58 0 0 1-3.44-.05 6.16 6.16 0 0 1-2.02-.38 4.07 4.07 0 0 1-1.48-.96 4.09 4.09 0 0 1-.96-1.48 6.13 6.13 0 0 1-.38-2.03c-.04-.88-.05-1.17-.05-3.43 0-2.26 0-2.55.05-3.43.04-.9.18-1.5.38-2.03.21-.55.54-1.06.96-1.48.42-.42.93-.75 1.48-.96.53-.2 1.14-.34 2.02-.38.9-.04 1.18-.05 3.44-.05Z" fill="currentColor"></path></g><defs><clipPath id="ig"><path fill="#fff" d="M0 0h20v20H0z"></path></clipPath></defs>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="sns-item">
+                        <a href="">
+                            <span class="blind">YouTube</span>
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5"><g clip-path="url(#yt)"><path d="M17.95 5.42c.38 1.48.38 4.58.38 4.58s0 3.1-.38 4.59a2.34 2.34 0 0 1-1.61 1.68c-1.43.4-6.34.4-6.34.4s-4.91 0-6.34-.4a2.34 2.34 0 0 1-1.61-1.68C1.67 13.1 1.67 10 1.67 10s0-3.1.38-4.58c.2-.83.83-1.47 1.61-1.69 1.43-.4 6.34-.4 6.34-.4s4.91 0 6.34.4c.79.22 1.4.87 1.61 1.69Zm-9.62 7.5 5-2.92-5-2.92v5.84Z" fill="currentColor"></path></g><defs><clipPath id="yt"><path fill="#fff" d="M0 0h20v20H0z"></path></clipPath></defs>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="sns-item">
+                        <a href="">
+                            <span class="blind">LinkedIn</span>
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5"><g clip-path="url(#li)"><path d="M15.28 15.28h-2.22V11.8c0-.83-.02-1.9-1.16-1.9-1.16 0-1.33.9-1.33 1.84v3.54H8.34V8.13h2.14v.97h.03a2.34 2.34 0 0 1 2.1-1.16c2.25 0 2.67 1.49 2.67 3.41v3.93ZM5.84 7.15a1.29 1.29 0 1 1 0-2.58 1.29 1.29 0 0 1 0 2.58Zm1.1 8.13H4.73V8.13h2.23v7.15ZM16.4 2.5H3.61c-.62 0-1.11.48-1.11 1.08v12.84c0 .6.5 1.08 1.1 1.08H16.4a1.1 1.1 0 0 0 1.11-1.08V3.58c0-.6-.5-1.08-1.11-1.08Z" fill="currentColor"></path></g><defs><clipPath id="li"><path fill="#fff" d="M0 0h20v20H0z"></path></clipPath></defs>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="sns-item">
+                        <a href="">
+                            <span class="blind">Medium</span>
+                            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5"><g clip-path="url(#md)" fill="currentColor"><path d="M10.03 9.54c0 2.51-2.03 4.55-4.52 4.55A4.53 4.53 0 0 1 1 9.54C1 7.04 3.02 5 5.51 5c2.5 0 4.52 2.03 4.52 4.54ZM14.98 9.54c0 2.37-1.02 4.28-2.26 4.28-1.25 0-2.26-1.91-2.26-4.28 0-2.36 1.01-4.27 2.26-4.27 1.24 0 2.25 1.91 2.25 4.27M17 9.54c0 2.12-.36 3.84-.8 3.84-.43 0-.79-1.72-.79-3.84 0-2.11.36-3.83.8-3.83.43 0 .79 1.72.79 3.83Z"></path></g><defs><clipPath id="md"><path fill="#fff" d="M1 5h16v9.09H1z"></path></clipPath></defs>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="privacy-area">
+                <ul class="privacy-list">
+                    <li class="prevacy-item"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

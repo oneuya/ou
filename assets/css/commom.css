@@ -1,0 +1,61 @@
+
+body{
+    min-width: 320px;
+}
+
+
+
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+.more-box{
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: "Outfit-m";
+    border-radius: 9999px;
+    padding: 10px 15px 10px 20px;
+    gap: 15px;
+
+}
+
+.more-box .arrow{
+    position: relative;
+    height: 32px;
+    width: 32px;
+    border-radius: 30px;
+    background-color: #fff;
+
+}
+.more-box .arrow svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    transition: 0.3s;
+    color: #000;
+    
+}
+
+
+
+.fix{
+    position: fixed;
+    bottom: 0;left: 0;
+    border: 1px solid #f00;
+    padding: 50px;
+    z-index: 9999;
+    font-size: 20px;
+}
+.here{
+    background: #f00;
+}
