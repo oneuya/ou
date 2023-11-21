@@ -111,6 +111,8 @@ $(function(){
     }
     
 
+    // 텍스트 모션
+
     const downloadsText = new SplitType('.sc-downloads .slide-text .text-box span', { types: 'words, chars', });
 
 
